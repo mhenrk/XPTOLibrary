@@ -20,7 +20,7 @@
         "nodejs",
         "typescript"
     ],
-    "author": "Venturus",
+    "author": "XPTO",
     "license": "ISC",
     "devDependencies": {
         "@types/compression": "1.7.0",

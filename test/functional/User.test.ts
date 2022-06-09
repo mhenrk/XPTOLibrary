@@ -53,11 +53,11 @@ describe('Route: User', () => {
             const response = await global.testRequest
                 .post(`/api/user/`)
                 .send({
-                    name: 'new user venturus',
+                    name: 'new user xpto',
                     userName: 'userInterview',
                     password: '451',
                     activated: true,
-                    email: 'userInterview@venturus.org.br',
+                    email: 'userInterview@xpto.org.br',
                 })
                 .set('Accept', 'application/json');
 
@@ -69,7 +69,7 @@ describe('Route: User', () => {
 
             expect(typeof body.data).toEqual('object');
             expect(body.data?._id).not.toBeUndefined();
-            expect(body.data?.name).toEqual('new user venturus');
+            expect(body.data?.name).toEqual('new user xpto');
             expect(body.data?.activated).toBeTruthy();
 
             done();
@@ -79,10 +79,10 @@ describe('Route: User', () => {
             const response = await global.testRequest
                 .post(`/api/user/`)
                 .send({
-                    name: 'new user venturus',
+                    name: 'new user xpto',
                     userName: 'userInterview',
                     activated: true,
-                    email: 'userInterview@venturus.org.br',
+                    email: 'userInterview@xpto.org.br',
                 })
                 .set('Accept', 'application/json');
 
@@ -100,7 +100,7 @@ describe('Route: User', () => {
             const response = await global.testRequest
                 .post(`/api/user/`)
                 .send({
-                    name: 'new user venturus',
+                    name: 'new user xpto',
                     userName: 'userInterview',
                     activated: true,
                     password: '451',

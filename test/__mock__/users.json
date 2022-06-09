@@ -4,27 +4,27 @@
         "password": "123",
         "userName": "test",
         "name": "test",
-        "email": "email@venturus.com"
+        "email": "email@xpto.com"
     },
     {
         "activated": true,
         "password": "123",
         "userName": "test_1",
         "name": "test new 1",
-        "email": "email_1@venturus.com"
+        "email": "email_1@xpto.com"
     },
     {
         "activated": true,
         "password": "123",
-        "userName": "venturus_test",
-        "name": "venturus test",
-        "email": "venturus_test@venturus.com"
+        "userName": "xpto_test",
+        "name": "xpto test",
+        "email": "xpto_test@xpto.com"
     },
     {
         "activated": false,
         "password": "123",
         "userName": "vnt12",
-        "name": "venturus new test",
-        "email": "vnt12@venturus.com"
+        "name": "xpto new test",
+        "email": "vnt12@xpto.com"
     }
 ]
