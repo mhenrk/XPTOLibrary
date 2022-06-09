@@ -1,0 +1,30 @@
+[
+    {
+        "activated": true,
+        "password": "123",
+        "userName": "test",
+        "name": "test",
+        "email": "email@venturus.com"
+    },
+    {
+        "activated": true,
+        "password": "123",
+        "userName": "test_1",
+        "name": "test new 1",
+        "email": "email_1@venturus.com"
+    },
+    {
+        "activated": true,
+        "password": "123",
+        "userName": "venturus_test",
+        "name": "venturus test",
+        "email": "venturus_test@venturus.com"
+    },
+    {
+        "activated": false,
+        "password": "123",
+        "userName": "vnt12",
+        "name": "venturus new test",
+        "email": "vnt12@venturus.com"
+    }
+]
